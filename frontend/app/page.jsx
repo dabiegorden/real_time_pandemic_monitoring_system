@@ -1,12 +1,12 @@
-import LeftSideBar from "@/components/leftSidebar";
-import React from "react";
+import Hero from "@/components/hero";
+import Navbar from "@/components/navbar";
 
 const Home = () => {
   return (
-    <>
-      <h1>Home</h1>
-      <LeftSideBar />
-    </>
+    <div>
+      <Navbar />
+      <Hero />
+    </div>
   );
 };
 
